@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ページのタイトル</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>AudioContext Oscillator</h1>
+    </header>
+    <main>
+        <button id="play">play</button>
+        <select id="wave-type">
+            <option value="sine"><ruby>正弦<rt>サイン</rt></ruby>波</option>
+            <option value="square"><ruby>矩形<rt>スクエア</rt></ruby>波</option>
+            <option value="sawtooth"><ruby>鋸<rt>のこぎり</rt></ruby>波</option>
+            <option value="triangle"><ruby>三角<rt>トライアングル</rt></ruby>波</option>
+        </select>
+        <input id="frequency" type="number" step="0.01" value="440.0">
+    </main>
+</body>
+</html>
+
